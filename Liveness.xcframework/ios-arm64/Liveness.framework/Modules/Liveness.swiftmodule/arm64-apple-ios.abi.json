@@ -1,0 +1,3606 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "TypeDecl",
+        "name": "RBKLivenessAlert",
+        "printedName": "RBKLivenessAlert",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "faceNotFound",
+            "printedName": "faceNotFound",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Liveness.RBKLivenessAlert.Type) -> Liveness.RBKLivenessAlert",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RBKLivenessAlert",
+                    "printedName": "Liveness.RBKLivenessAlert",
+                    "usr": "c:@M@Liveness@E@RBKLivenessAlert"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Liveness.RBKLivenessAlert.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessAlert",
+                        "printedName": "Liveness.RBKLivenessAlert",
+                        "usr": "c:@M@Liveness@E@RBKLivenessAlert"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Liveness@E@RBKLivenessAlert@RBKLivenessAlertFaceNotFound",
+            "mangledName": "$s8Liveness16RBKLivenessAlertO12faceNotFoundyA2CmF",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "singleFace",
+            "printedName": "singleFace",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Liveness.RBKLivenessAlert.Type) -> Liveness.RBKLivenessAlert",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RBKLivenessAlert",
+                    "printedName": "Liveness.RBKLivenessAlert",
+                    "usr": "c:@M@Liveness@E@RBKLivenessAlert"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Liveness.RBKLivenessAlert.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessAlert",
+                        "printedName": "Liveness.RBKLivenessAlert",
+                        "usr": "c:@M@Liveness@E@RBKLivenessAlert"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Liveness@E@RBKLivenessAlert@RBKLivenessAlertSingleFace",
+            "mangledName": "$s8Liveness16RBKLivenessAlertO10singleFaceyA2CmF",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "straightHeadOpenEyes",
+            "printedName": "straightHeadOpenEyes",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Liveness.RBKLivenessAlert.Type) -> Liveness.RBKLivenessAlert",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RBKLivenessAlert",
+                    "printedName": "Liveness.RBKLivenessAlert",
+                    "usr": "c:@M@Liveness@E@RBKLivenessAlert"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Liveness.RBKLivenessAlert.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessAlert",
+                        "printedName": "Liveness.RBKLivenessAlert",
+                        "usr": "c:@M@Liveness@E@RBKLivenessAlert"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Liveness@E@RBKLivenessAlert@RBKLivenessAlertStraightHeadOpenEyes",
+            "mangledName": "$s8Liveness16RBKLivenessAlertO20straightHeadOpenEyesyA2CmF",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "headOutOfBounds",
+            "printedName": "headOutOfBounds",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Liveness.RBKLivenessAlert.Type) -> Liveness.RBKLivenessAlert",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RBKLivenessAlert",
+                    "printedName": "Liveness.RBKLivenessAlert",
+                    "usr": "c:@M@Liveness@E@RBKLivenessAlert"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Liveness.RBKLivenessAlert.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessAlert",
+                        "printedName": "Liveness.RBKLivenessAlert",
+                        "usr": "c:@M@Liveness@E@RBKLivenessAlert"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Liveness@E@RBKLivenessAlert@RBKLivenessAlertHeadOutOfBounds",
+            "mangledName": "$s8Liveness16RBKLivenessAlertO15headOutOfBoundsyA2CmF",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Liveness.RBKLivenessAlert?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RBKLivenessAlert",
+                    "printedName": "Liveness.RBKLivenessAlert",
+                    "usr": "c:@M@Liveness@E@RBKLivenessAlert"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8Liveness16RBKLivenessAlertO8rawValueACSgSi_tcfc",
+            "mangledName": "$s8Liveness16RBKLivenessAlertO8rawValueACSgSi_tcfc",
+            "moduleName": "Liveness",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Liveness16RBKLivenessAlertO8rawValueSivp",
+            "mangledName": "$s8Liveness16RBKLivenessAlertO8rawValueSivp",
+            "moduleName": "Liveness",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Liveness16RBKLivenessAlertO8rawValueSivg",
+                "mangledName": "$s8Liveness16RBKLivenessAlertO8rawValueSivg",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@Liveness@E@RBKLivenessAlert",
+        "mangledName": "$s8Liveness16RBKLivenessAlertO",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Liveness"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreVideo",
+        "printedName": "CoreVideo",
+        "declKind": "Import",
+        "moduleName": "Liveness"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Liveness"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreVideo",
+        "printedName": "CoreVideo",
+        "declKind": "Import",
+        "moduleName": "Liveness"
+      },
+      {
+        "kind": "Import",
+        "name": "MLKitVision",
+        "printedName": "MLKitVision",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MLKitFaceDetection",
+        "printedName": "MLKitFaceDetection",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit.UIImage",
+        "printedName": "UIKit.UIImage",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RBKLivenessMessage",
+        "printedName": "RBKLivenessMessage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "succeeded",
+            "printedName": "succeeded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Liveness.RBKLivenessMessage.Type) -> Liveness.RBKLivenessMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RBKLivenessMessage",
+                    "printedName": "Liveness.RBKLivenessMessage",
+                    "usr": "s:8Liveness18RBKLivenessMessageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Liveness.RBKLivenessMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessMessage",
+                        "printedName": "Liveness.RBKLivenessMessage",
+                        "usr": "s:8Liveness18RBKLivenessMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8Liveness18RBKLivenessMessageO9succeededyA2CmF",
+            "mangledName": "$s8Liveness18RBKLivenessMessageO9succeededyA2CmF",
+            "moduleName": "Liveness"
+          },
+          {
+            "kind": "Var",
+            "name": "alert",
+            "printedName": "alert",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Liveness.RBKLivenessMessage.Type) -> (Liveness.RBKLivenessAlert) -> Liveness.RBKLivenessMessage",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Liveness.RBKLivenessAlert) -> Liveness.RBKLivenessMessage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessMessage",
+                        "printedName": "Liveness.RBKLivenessMessage",
+                        "usr": "s:8Liveness18RBKLivenessMessageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessAlert",
+                        "printedName": "Liveness.RBKLivenessAlert",
+                        "usr": "c:@M@Liveness@E@RBKLivenessAlert"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Liveness.RBKLivenessMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessMessage",
+                        "printedName": "Liveness.RBKLivenessMessage",
+                        "usr": "s:8Liveness18RBKLivenessMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8Liveness18RBKLivenessMessageO5alertyAcA0B5AlertOcACmF",
+            "mangledName": "$s8Liveness18RBKLivenessMessageO5alertyAcA0B5AlertOcACmF",
+            "moduleName": "Liveness"
+          },
+          {
+            "kind": "Var",
+            "name": "pass",
+            "printedName": "pass",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Liveness.RBKLivenessMessage.Type) -> (Liveness.RBKLivenessAction) -> Liveness.RBKLivenessMessage",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Liveness.RBKLivenessAction) -> Liveness.RBKLivenessMessage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessMessage",
+                        "printedName": "Liveness.RBKLivenessMessage",
+                        "usr": "s:8Liveness18RBKLivenessMessageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessAction",
+                        "printedName": "Liveness.RBKLivenessAction",
+                        "usr": "c:@M@Liveness@E@RBKLivenessAction"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Liveness.RBKLivenessMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessMessage",
+                        "printedName": "Liveness.RBKLivenessMessage",
+                        "usr": "s:8Liveness18RBKLivenessMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8Liveness18RBKLivenessMessageO4passyAcA0B6ActionOcACmF",
+            "mangledName": "$s8Liveness18RBKLivenessMessageO4passyAcA0B6ActionOcACmF",
+            "moduleName": "Liveness"
+          },
+          {
+            "kind": "Var",
+            "name": "passed",
+            "printedName": "passed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Liveness.RBKLivenessMessage.Type) -> (Liveness.RBKLivenessResult) -> Liveness.RBKLivenessMessage",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Liveness.RBKLivenessResult) -> Liveness.RBKLivenessMessage",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessMessage",
+                        "printedName": "Liveness.RBKLivenessMessage",
+                        "usr": "s:8Liveness18RBKLivenessMessageO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessResult",
+                        "printedName": "Liveness.RBKLivenessResult",
+                        "usr": "c:@M@Liveness@objc(cs)RBKLivenessResult"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Liveness.RBKLivenessMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessMessage",
+                        "printedName": "Liveness.RBKLivenessMessage",
+                        "usr": "s:8Liveness18RBKLivenessMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8Liveness18RBKLivenessMessageO6passedyAcA0B6ResultCcACmF",
+            "mangledName": "$s8Liveness18RBKLivenessMessageO6passedyAcA0B6ResultCcACmF",
+            "moduleName": "Liveness"
+          },
+          {
+            "kind": "Var",
+            "name": "imageCaptureError",
+            "printedName": "imageCaptureError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Liveness.RBKLivenessMessage.Type) -> Liveness.RBKLivenessMessage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RBKLivenessMessage",
+                    "printedName": "Liveness.RBKLivenessMessage",
+                    "usr": "s:8Liveness18RBKLivenessMessageO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Liveness.RBKLivenessMessage.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessMessage",
+                        "printedName": "Liveness.RBKLivenessMessage",
+                        "usr": "s:8Liveness18RBKLivenessMessageO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:8Liveness18RBKLivenessMessageO17imageCaptureErroryA2CmF",
+            "mangledName": "$s8Liveness18RBKLivenessMessageO17imageCaptureErroryA2CmF",
+            "moduleName": "Liveness"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:8Liveness18RBKLivenessMessageO",
+        "mangledName": "$s8Liveness18RBKLivenessMessageO",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RBKLivenessDataSource",
+        "printedName": "RBKLivenessDataSource",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "liveness",
+            "printedName": "liveness(textForAlert:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RBKLivenessAlert",
+                "printedName": "Liveness.RBKLivenessAlert",
+                "usr": "c:@M@Liveness@E@RBKLivenessAlert"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Liveness@objc(pl)RBKLivenessDataSource(im)livenessWithTextForAlert:",
+            "mangledName": "$s8Liveness21RBKLivenessDataSourceP8liveness12textForAlertSSSgAA0bH0O_tF",
+            "moduleName": "Liveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : Liveness.RBKLivenessDataSource>",
+            "sugared_genericSig": "<Self where Self : Liveness.RBKLivenessDataSource>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "liveness",
+            "printedName": "liveness(textForAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RBKLivenessAction",
+                "printedName": "Liveness.RBKLivenessAction",
+                "usr": "c:@M@Liveness@E@RBKLivenessAction"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Liveness@objc(pl)RBKLivenessDataSource(im)livenessWithTextForAction:",
+            "mangledName": "$s8Liveness21RBKLivenessDataSourceP8liveness13textForActionSSSgAA0bH0O_tF",
+            "moduleName": "Liveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : Liveness.RBKLivenessDataSource>",
+            "sugared_genericSig": "<Self where Self : Liveness.RBKLivenessDataSource>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "liveness",
+            "printedName": "liveness(descriptionTextForAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RBKLivenessAction",
+                "printedName": "Liveness.RBKLivenessAction",
+                "usr": "c:@M@Liveness@E@RBKLivenessAction"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Liveness@objc(pl)RBKLivenessDataSource(im)livenessWithDescriptionTextForAction:",
+            "mangledName": "$s8Liveness21RBKLivenessDataSourceP8liveness24descriptionTextForActionSSSgAA0bI0O_tF",
+            "moduleName": "Liveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : Liveness.RBKLivenessDataSource>",
+            "sugared_genericSig": "<Self where Self : Liveness.RBKLivenessDataSource>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "liveness",
+            "printedName": "liveness(textForPassedAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RBKLivenessAction",
+                "printedName": "Liveness.RBKLivenessAction",
+                "usr": "c:@M@Liveness@E@RBKLivenessAction"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Liveness@objc(pl)RBKLivenessDataSource(im)livenessWithTextForPassedAction:",
+            "mangledName": "$s8Liveness21RBKLivenessDataSourceP8liveness19textForPassedActionSSSgAA0bI0O_tF",
+            "moduleName": "Liveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : Liveness.RBKLivenessDataSource>",
+            "sugared_genericSig": "<Self where Self : Liveness.RBKLivenessDataSource>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "liveness",
+            "printedName": "liveness(textForAlert:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RBKLivenessAlert",
+                "printedName": "Liveness.RBKLivenessAlert",
+                "usr": "c:@M@Liveness@E@RBKLivenessAlert"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Liveness21RBKLivenessDataSourcePAAE8liveness12textForAlertSSSgAA0bH0O_tF",
+            "mangledName": "$s8Liveness21RBKLivenessDataSourcePAAE8liveness12textForAlertSSSgAA0bH0O_tF",
+            "moduleName": "Liveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : Liveness.RBKLivenessDataSource>",
+            "sugared_genericSig": "<Self where Self : Liveness.RBKLivenessDataSource>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "liveness",
+            "printedName": "liveness(textForAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RBKLivenessAction",
+                "printedName": "Liveness.RBKLivenessAction",
+                "usr": "c:@M@Liveness@E@RBKLivenessAction"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Liveness21RBKLivenessDataSourcePAAE8liveness13textForActionSSSgAA0bH0O_tF",
+            "mangledName": "$s8Liveness21RBKLivenessDataSourcePAAE8liveness13textForActionSSSgAA0bH0O_tF",
+            "moduleName": "Liveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : Liveness.RBKLivenessDataSource>",
+            "sugared_genericSig": "<Self where Self : Liveness.RBKLivenessDataSource>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "liveness",
+            "printedName": "liveness(descriptionTextForAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RBKLivenessAction",
+                "printedName": "Liveness.RBKLivenessAction",
+                "usr": "c:@M@Liveness@E@RBKLivenessAction"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Liveness21RBKLivenessDataSourcePAAE8liveness24descriptionTextForActionSSSgAA0bI0O_tF",
+            "mangledName": "$s8Liveness21RBKLivenessDataSourcePAAE8liveness24descriptionTextForActionSSSgAA0bI0O_tF",
+            "moduleName": "Liveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : Liveness.RBKLivenessDataSource>",
+            "sugared_genericSig": "<Self where Self : Liveness.RBKLivenessDataSource>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "liveness",
+            "printedName": "liveness(textForPassedAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RBKLivenessAction",
+                "printedName": "Liveness.RBKLivenessAction",
+                "usr": "c:@M@Liveness@E@RBKLivenessAction"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Liveness21RBKLivenessDataSourcePAAE8liveness19textForPassedActionSSSgAA0bI0O_tF",
+            "mangledName": "$s8Liveness21RBKLivenessDataSourcePAAE8liveness19textForPassedActionSSSgAA0bI0O_tF",
+            "moduleName": "Liveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : Liveness.RBKLivenessDataSource>",
+            "sugared_genericSig": "<Self where Self : Liveness.RBKLivenessDataSource>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@Liveness@objc(pl)RBKLivenessDataSource",
+        "mangledName": "$s8Liveness21RBKLivenessDataSourceP",
+        "moduleName": "Liveness",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MLKitFaceDetection",
+        "printedName": "MLKitFaceDetection",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit.UIImage",
+        "printedName": "UIKit.UIImage",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RBKLivenessResult",
+        "printedName": "RBKLivenessResult",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "action",
+            "printedName": "action",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RBKLivenessAction",
+                "printedName": "Liveness.RBKLivenessAction",
+                "usr": "c:@M@Liveness@E@RBKLivenessAction"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Liveness@objc(cs)RBKLivenessResult(py)action",
+            "mangledName": "$s8Liveness17RBKLivenessResultC6actionAA0B6ActionOvp",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RBKLivenessAction",
+                    "printedName": "Liveness.RBKLivenessAction",
+                    "usr": "c:@M@Liveness@E@RBKLivenessAction"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Liveness@objc(cs)RBKLivenessResult(im)action",
+                "mangledName": "$s8Liveness17RBKLivenessResultC6actionAA0B6ActionOvg",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Liveness@objc(cs)RBKLivenessResult(py)image",
+            "mangledName": "$s8Liveness17RBKLivenessResultC5imageSo7UIImageCSgvp",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Liveness@objc(cs)RBKLivenessResult(im)image",
+                "mangledName": "$s8Liveness17RBKLivenessResultC5imageSo7UIImageCSgvg",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RBKLivenessResult",
+                "printedName": "Liveness.RBKLivenessResult",
+                "usr": "c:@M@Liveness@objc(cs)RBKLivenessResult"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Liveness@objc(cs)RBKLivenessResult(im)init",
+            "mangledName": "$s8Liveness17RBKLivenessResultCACycfc",
+            "moduleName": "Liveness",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Liveness@objc(cs)RBKLivenessResult",
+        "mangledName": "$s8Liveness17RBKLivenessResultC",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit.UIImage",
+        "printedName": "UIKit.UIImage",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RBKLivenessDelegate",
+        "printedName": "RBKLivenessDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "liveness",
+            "printedName": "liveness(didCaptureFaceIn:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Liveness@objc(pl)RBKLivenessDelegate(im)livenessWithDidCaptureFaceIn:",
+            "mangledName": "$s8Liveness19RBKLivenessDelegateP8liveness16didCaptureFaceInySo7UIImageC_tF",
+            "moduleName": "Liveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : Liveness.RBKLivenessDelegate>",
+            "sugared_genericSig": "<Self where Self : Liveness.RBKLivenessDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "liveness",
+            "printedName": "liveness(willPassAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RBKLivenessAction",
+                "printedName": "Liveness.RBKLivenessAction",
+                "usr": "c:@M@Liveness@E@RBKLivenessAction"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Liveness@objc(pl)RBKLivenessDelegate(im)livenessWithWillPassAction:",
+            "mangledName": "$s8Liveness19RBKLivenessDelegateP8liveness14willPassActionyAA0bG0O_tF",
+            "moduleName": "Liveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : Liveness.RBKLivenessDelegate>",
+            "sugared_genericSig": "<Self where Self : Liveness.RBKLivenessDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "liveness",
+            "printedName": "liveness(didPassActionWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RBKLivenessResult",
+                "printedName": "Liveness.RBKLivenessResult",
+                "usr": "c:@M@Liveness@objc(cs)RBKLivenessResult"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Liveness@objc(pl)RBKLivenessDelegate(im)livenessWithDidPassActionWith:",
+            "mangledName": "$s8Liveness19RBKLivenessDelegateP8liveness17didPassActionWithyAA0B6ResultC_tF",
+            "moduleName": "Liveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : Liveness.RBKLivenessDelegate>",
+            "sugared_genericSig": "<Self where Self : Liveness.RBKLivenessDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "liveness",
+            "printedName": "liveness(didRecordVideoTo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Liveness@objc(pl)RBKLivenessDelegate(im)livenessWithDidRecordVideoTo:",
+            "mangledName": "$s8Liveness19RBKLivenessDelegateP8liveness16didRecordVideoToy10Foundation3URLV_tF",
+            "moduleName": "Liveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : Liveness.RBKLivenessDelegate>",
+            "sugared_genericSig": "<Self where Self : Liveness.RBKLivenessDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "livenessDidSucceed",
+            "printedName": "livenessDidSucceed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Liveness@objc(pl)RBKLivenessDelegate(im)livenessDidSucceed",
+            "mangledName": "$s8Liveness19RBKLivenessDelegateP18livenessDidSucceedyyF",
+            "moduleName": "Liveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : Liveness.RBKLivenessDelegate>",
+            "sugared_genericSig": "<Self where Self : Liveness.RBKLivenessDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "liveness",
+            "printedName": "liveness(willPassAction:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "RBKLivenessAction",
+                "printedName": "Liveness.RBKLivenessAction",
+                "usr": "c:@M@Liveness@E@RBKLivenessAction"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Liveness19RBKLivenessDelegatePAAE8liveness14willPassActionyAA0bG0O_tF",
+            "mangledName": "$s8Liveness19RBKLivenessDelegatePAAE8liveness14willPassActionyAA0bG0O_tF",
+            "moduleName": "Liveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : Liveness.RBKLivenessDelegate>",
+            "sugared_genericSig": "<Self where Self : Liveness.RBKLivenessDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "liveness",
+            "printedName": "liveness(didRecordVideoTo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Liveness19RBKLivenessDelegatePAAE8liveness16didRecordVideoToy10Foundation3URLV_tF",
+            "mangledName": "$s8Liveness19RBKLivenessDelegatePAAE8liveness16didRecordVideoToy10Foundation3URLV_tF",
+            "moduleName": "Liveness",
+            "genericSig": "<τ_0_0 where τ_0_0 : Liveness.RBKLivenessDelegate>",
+            "sugared_genericSig": "<Self where Self : Liveness.RBKLivenessDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@Liveness@objc(pl)RBKLivenessDelegate",
+        "mangledName": "$s8Liveness19RBKLivenessDelegateP",
+        "moduleName": "Liveness",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Liveness"
+      },
+      {
+        "kind": "Import",
+        "name": "MLKitVision",
+        "printedName": "MLKitVision",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RBKLivenessAction",
+        "printedName": "RBKLivenessAction",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "smile",
+            "printedName": "smile",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Liveness.RBKLivenessAction.Type) -> Liveness.RBKLivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RBKLivenessAction",
+                    "printedName": "Liveness.RBKLivenessAction",
+                    "usr": "c:@M@Liveness@E@RBKLivenessAction"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Liveness.RBKLivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessAction",
+                        "printedName": "Liveness.RBKLivenessAction",
+                        "usr": "c:@M@Liveness@E@RBKLivenessAction"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Liveness@E@RBKLivenessAction@RBKLivenessActionSmile",
+            "mangledName": "$s8Liveness17RBKLivenessActionO5smileyA2CmF",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "turnLeft",
+            "printedName": "turnLeft",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Liveness.RBKLivenessAction.Type) -> Liveness.RBKLivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RBKLivenessAction",
+                    "printedName": "Liveness.RBKLivenessAction",
+                    "usr": "c:@M@Liveness@E@RBKLivenessAction"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Liveness.RBKLivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessAction",
+                        "printedName": "Liveness.RBKLivenessAction",
+                        "usr": "c:@M@Liveness@E@RBKLivenessAction"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Liveness@E@RBKLivenessAction@RBKLivenessActionTurnLeft",
+            "mangledName": "$s8Liveness17RBKLivenessActionO8turnLeftyA2CmF",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "turnRight",
+            "printedName": "turnRight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Liveness.RBKLivenessAction.Type) -> Liveness.RBKLivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RBKLivenessAction",
+                    "printedName": "Liveness.RBKLivenessAction",
+                    "usr": "c:@M@Liveness@E@RBKLivenessAction"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Liveness.RBKLivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessAction",
+                        "printedName": "Liveness.RBKLivenessAction",
+                        "usr": "c:@M@Liveness@E@RBKLivenessAction"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Liveness@E@RBKLivenessAction@RBKLivenessActionTurnRight",
+            "mangledName": "$s8Liveness17RBKLivenessActionO9turnRightyA2CmF",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "tiltLeft",
+            "printedName": "tiltLeft",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Liveness.RBKLivenessAction.Type) -> Liveness.RBKLivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RBKLivenessAction",
+                    "printedName": "Liveness.RBKLivenessAction",
+                    "usr": "c:@M@Liveness@E@RBKLivenessAction"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Liveness.RBKLivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessAction",
+                        "printedName": "Liveness.RBKLivenessAction",
+                        "usr": "c:@M@Liveness@E@RBKLivenessAction"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Liveness@E@RBKLivenessAction@RBKLivenessActionTiltLeft",
+            "mangledName": "$s8Liveness17RBKLivenessActionO8tiltLeftyA2CmF",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "tiltRight",
+            "printedName": "tiltRight",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Liveness.RBKLivenessAction.Type) -> Liveness.RBKLivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RBKLivenessAction",
+                    "printedName": "Liveness.RBKLivenessAction",
+                    "usr": "c:@M@Liveness@E@RBKLivenessAction"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Liveness.RBKLivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessAction",
+                        "printedName": "Liveness.RBKLivenessAction",
+                        "usr": "c:@M@Liveness@E@RBKLivenessAction"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Liveness@E@RBKLivenessAction@RBKLivenessActionTiltRight",
+            "mangledName": "$s8Liveness17RBKLivenessActionO9tiltRightyA2CmF",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
+            "name": "blink",
+            "printedName": "blink",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Liveness.RBKLivenessAction.Type) -> Liveness.RBKLivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RBKLivenessAction",
+                    "printedName": "Liveness.RBKLivenessAction",
+                    "usr": "c:@M@Liveness@E@RBKLivenessAction"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Liveness.RBKLivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessAction",
+                        "printedName": "Liveness.RBKLivenessAction",
+                        "usr": "c:@M@Liveness@E@RBKLivenessAction"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Liveness@E@RBKLivenessAction@RBKLivenessActionBlink",
+            "mangledName": "$s8Liveness17RBKLivenessActionO5blinkyA2CmF",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 5
+          },
+          {
+            "kind": "Var",
+            "name": "openMouth",
+            "printedName": "openMouth",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Liveness.RBKLivenessAction.Type) -> Liveness.RBKLivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RBKLivenessAction",
+                    "printedName": "Liveness.RBKLivenessAction",
+                    "usr": "c:@M@Liveness@E@RBKLivenessAction"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Liveness.RBKLivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessAction",
+                        "printedName": "Liveness.RBKLivenessAction",
+                        "usr": "c:@M@Liveness@E@RBKLivenessAction"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Liveness@E@RBKLivenessAction@RBKLivenessActionOpenMouth",
+            "mangledName": "$s8Liveness17RBKLivenessActionO9openMouthyA2CmF",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 6
+          },
+          {
+            "kind": "Var",
+            "name": "sayWord",
+            "printedName": "sayWord",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Liveness.RBKLivenessAction.Type) -> Liveness.RBKLivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RBKLivenessAction",
+                    "printedName": "Liveness.RBKLivenessAction",
+                    "usr": "c:@M@Liveness@E@RBKLivenessAction"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Liveness.RBKLivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessAction",
+                        "printedName": "Liveness.RBKLivenessAction",
+                        "usr": "c:@M@Liveness@E@RBKLivenessAction"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Liveness@E@RBKLivenessAction@RBKLivenessActionSayWord",
+            "mangledName": "$s8Liveness17RBKLivenessActionO7sayWordyA2CmF",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 7
+          },
+          {
+            "kind": "Function",
+            "name": "generate",
+            "printedName": "generate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Liveness.RBKLivenessAction]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RBKLivenessAction",
+                    "printedName": "Liveness.RBKLivenessAction",
+                    "usr": "c:@M@Liveness@E@RBKLivenessAction"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Liveness17RBKLivenessActionO8generateSayACGyFZ",
+            "mangledName": "$s8Liveness17RBKLivenessActionO8generateSayACGyFZ",
+            "moduleName": "Liveness",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Liveness.RBKLivenessAction?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RBKLivenessAction",
+                    "printedName": "Liveness.RBKLivenessAction",
+                    "usr": "c:@M@Liveness@E@RBKLivenessAction"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8Liveness17RBKLivenessActionO8rawValueACSgSi_tcfc",
+            "mangledName": "$s8Liveness17RBKLivenessActionO8rawValueACSgSi_tcfc",
+            "moduleName": "Liveness",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:8Liveness17RBKLivenessActionO8rawValueSivp",
+            "mangledName": "$s8Liveness17RBKLivenessActionO8rawValueSivp",
+            "moduleName": "Liveness",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Liveness17RBKLivenessActionO8rawValueSivg",
+                "mangledName": "$s8Liveness17RBKLivenessActionO8rawValueSivg",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@Liveness@E@RBKLivenessAction",
+        "mangledName": "$s8Liveness17RBKLivenessActionO",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RBKLivenessViewController",
+        "printedName": "RBKLivenessViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any Liveness.RBKLivenessDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController(py)delegate",
+            "mangledName": "$s8Liveness25RBKLivenessViewControllerC8delegateAA0B8Delegate_pSgvp",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "ReferenceOwnership",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Liveness.RBKLivenessDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessDelegate",
+                        "printedName": "any Liveness.RBKLivenessDelegate",
+                        "usr": "c:@M@Liveness@objc(pl)RBKLivenessDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController(im)delegate",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC8delegateAA0B8Delegate_pSgvg",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Liveness.RBKLivenessDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessDelegate",
+                        "printedName": "any Liveness.RBKLivenessDelegate",
+                        "usr": "c:@M@Liveness@objc(pl)RBKLivenessDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController(im)setDelegate:",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC8delegateAA0B8Delegate_pSgvs",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Liveness25RBKLivenessViewControllerC8delegateAA0B8Delegate_pSgvM",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC8delegateAA0B8Delegate_pSgvM",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "dataSource",
+            "printedName": "dataSource",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any Liveness.RBKLivenessDataSource)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController(py)dataSource",
+            "mangledName": "$s8Liveness25RBKLivenessViewControllerC10dataSourceAA0b4DataF0_pSgvp",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "ReferenceOwnership",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Liveness.RBKLivenessDataSource)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessDataSource",
+                        "printedName": "any Liveness.RBKLivenessDataSource",
+                        "usr": "c:@M@Liveness@objc(pl)RBKLivenessDataSource"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController(im)dataSource",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC10dataSourceAA0b4DataF0_pSgvg",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Liveness.RBKLivenessDataSource)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "RBKLivenessDataSource",
+                        "printedName": "any Liveness.RBKLivenessDataSource",
+                        "usr": "c:@M@Liveness@objc(pl)RBKLivenessDataSource"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController(im)setDataSource:",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC10dataSourceAA0b4DataF0_pSgvs",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Liveness25RBKLivenessViewControllerC10dataSourceAA0b4DataF0_pSgvM",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC10dataSourceAA0b4DataF0_pSgvM",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldSetMaxBrightness",
+            "printedName": "shouldSetMaxBrightness",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController(py)shouldSetMaxBrightness",
+            "mangledName": "$s8Liveness25RBKLivenessViewControllerC22shouldSetMaxBrightnessSbvp",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController(im)shouldSetMaxBrightness",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC22shouldSetMaxBrightnessSbvg",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController(im)setShouldSetMaxBrightness:",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC22shouldSetMaxBrightnessSbvs",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Liveness25RBKLivenessViewControllerC22shouldSetMaxBrightnessSbvM",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC22shouldSetMaxBrightnessSbvM",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "titleColor",
+            "printedName": "titleColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController(py)titleColor",
+            "mangledName": "$s8Liveness25RBKLivenessViewControllerC10titleColorSo7UIColorCvp",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController(im)titleColor",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC10titleColorSo7UIColorCvg",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController(im)setTitleColor:",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC10titleColorSo7UIColorCvs",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Liveness25RBKLivenessViewControllerC10titleColorSo7UIColorCvM",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC10titleColorSo7UIColorCvM",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loadingText",
+            "printedName": "loadingText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController(py)loadingText",
+            "mangledName": "$s8Liveness25RBKLivenessViewControllerC11loadingTextSSSgvp",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController(im)loadingText",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC11loadingTextSSSgvg",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController(im)setLoadingText:",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC11loadingTextSSSgvs",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Liveness25RBKLivenessViewControllerC11loadingTextSSSgvM",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC11loadingTextSSSgvM",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(isRecordingEnabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RBKLivenessViewController",
+                "printedName": "Liveness.RBKLivenessViewController",
+                "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController(im)initWithIsRecordingEnabled:",
+            "mangledName": "$s8Liveness25RBKLivenessViewControllerC18isRecordingEnabledACSb_tcfc",
+            "moduleName": "Liveness",
+            "objc_name": "initWithIsRecordingEnabled:",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController(im)viewDidLoad",
+            "mangledName": "$s8Liveness25RBKLivenessViewControllerC11viewDidLoadyyF",
+            "moduleName": "Liveness",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLayoutSubviews",
+            "printedName": "viewDidLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController(im)viewDidLayoutSubviews",
+            "mangledName": "$s8Liveness25RBKLivenessViewControllerC21viewDidLayoutSubviewsyyF",
+            "moduleName": "Liveness",
+            "overriding": true,
+            "objc_name": "viewDidLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController(im)viewDidAppear:",
+            "mangledName": "$s8Liveness25RBKLivenessViewControllerC13viewDidAppearyySbF",
+            "moduleName": "Liveness",
+            "overriding": true,
+            "objc_name": "viewDidAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillDisappear",
+            "printedName": "viewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController(im)viewWillDisappear:",
+            "mangledName": "$s8Liveness25RBKLivenessViewControllerC17viewWillDisappearyySbF",
+            "moduleName": "Liveness",
+            "overriding": true,
+            "objc_name": "viewWillDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RBKLivenessViewController",
+                "printedName": "Liveness.RBKLivenessViewController",
+                "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s8Liveness25RBKLivenessViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "Liveness",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "titleFont",
+            "printedName": "titleFont",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@Liveness@objc(cs)RBKLivenessViewController(py)titleFont",
+            "mangledName": "$s8Liveness25RBKLivenessViewControllerC9titleFontSo6UIFontCvp",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@Liveness@objc(cs)RBKLivenessViewController(im)titleFont",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC9titleFontSo6UIFontCvg",
+                "moduleName": "Liveness",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@Liveness@objc(cs)RBKLivenessViewController(im)setTitleFont:",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC9titleFontSo6UIFontCvs",
+                "moduleName": "Liveness",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "descriptionFont",
+            "printedName": "descriptionFont",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@Liveness@objc(cs)RBKLivenessViewController(py)descriptionFont",
+            "mangledName": "$s8Liveness25RBKLivenessViewControllerC15descriptionFontSo6UIFontCvp",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@Liveness@objc(cs)RBKLivenessViewController(im)descriptionFont",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC15descriptionFontSo6UIFontCvg",
+                "moduleName": "Liveness",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIFont",
+                    "printedName": "UIKit.UIFont",
+                    "usr": "c:objc(cs)UIFont"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@Liveness@objc(cs)RBKLivenessViewController(im)setDescriptionFont:",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC15descriptionFontSo6UIFontCvs",
+                "moduleName": "Liveness",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "descriptionColor",
+            "printedName": "descriptionColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@Liveness@objc(cs)RBKLivenessViewController(py)descriptionColor",
+            "mangledName": "$s8Liveness25RBKLivenessViewControllerC16descriptionColorSo7UIColorCvp",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@Liveness@objc(cs)RBKLivenessViewController(im)descriptionColor",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC16descriptionColorSo7UIColorCvg",
+                "moduleName": "Liveness",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@Liveness@objc(cs)RBKLivenessViewController(im)setDescriptionColor:",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC16descriptionColorSo7UIColorCvs",
+                "moduleName": "Liveness",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "activityIndicatorColor",
+            "printedName": "activityIndicatorColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@Liveness@objc(cs)RBKLivenessViewController(py)activityIndicatorColor",
+            "mangledName": "$s8Liveness25RBKLivenessViewControllerC22activityIndicatorColorSo7UIColorCvp",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@Liveness@objc(cs)RBKLivenessViewController(im)activityIndicatorColor",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC22activityIndicatorColorSo7UIColorCvg",
+                "moduleName": "Liveness",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@Liveness@objc(cs)RBKLivenessViewController(im)setActivityIndicatorColor:",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC22activityIndicatorColorSo7UIColorCvs",
+                "moduleName": "Liveness",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isActivityIndicatorLoading",
+            "printedName": "isActivityIndicatorLoading",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@CM@Liveness@objc(cs)RBKLivenessViewController(py)isActivityIndicatorLoading",
+            "mangledName": "$s8Liveness25RBKLivenessViewControllerC26isActivityIndicatorLoadingSbvp",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "Dynamic",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@Liveness@objc(cs)RBKLivenessViewController(im)isActivityIndicatorLoading",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC26isActivityIndicatorLoadingSbvg",
+                "moduleName": "Liveness",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@CM@Liveness@objc(cs)RBKLivenessViewController(im)setIsActivityIndicatorLoading:",
+                "mangledName": "$s8Liveness25RBKLivenessViewControllerC26isActivityIndicatorLoadingSbvs",
+                "moduleName": "Liveness",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "set"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@Liveness@objc(cs)RBKLivenessViewController",
+        "mangledName": "$s8Liveness25RBKLivenessViewControllerC",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Liveness"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Liveness"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "Liveness"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "Liveness"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessAlert.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1700,
+      "length": 10,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessAlert.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1859,
+      "length": 20,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessAlert.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2029,
+      "length": 15,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessAlert.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1700,
+      "length": 10,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessAlert.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1859,
+      "length": 20,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessAlert.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2029,
+      "length": 15,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKCameraController.swift",
+      "kind": "StringLiteral",
+      "offset": 2040,
+      "length": 19,
+      "value": "\"Liveness.RBKCameraController\""
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/ArrowsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 206,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/ArrowsView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 210,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2165,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2426,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2511,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2606,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2834,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "Dictionary",
+      "offset": 2963,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3060,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3858,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessCameraController.swift",
+      "kind": "StringLiteral",
+      "offset": 1901,
+      "length": 27,
+      "value": "\"Liveness.RBKLivenessCameraController\""
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/CameraFocusFrameView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 245,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/CameraFocusFrameView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 322,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/CameraFocusFrameView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Utils\/UIColor+extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 256,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 288,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/RBKLivenessResult.swift",
+      "kind": "StringLiteral",
+      "offset": 129,
+      "length": 17,
+      "value": "\"Liveness.RBKLivenessResult\""
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2215,
+      "length": 8,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2286,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2357,
+      "length": 8,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2428,
+      "length": 9,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2496,
+      "length": 5,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2559,
+      "length": 9,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2622,
+      "length": 7,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2215,
+      "length": 8,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2286,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2357,
+      "length": 8,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2428,
+      "length": 9,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2496,
+      "length": 5,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2559,
+      "length": 9,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/RBKLivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2622,
+      "length": 7,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/RBKLivenessViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2801,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/RBKLivenessViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2910,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/RBKLivenessViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3016,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/RBKLivenessViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3674,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/RBKLivenessViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4042,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/RBKLivenessViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1833,
+      "length": 25,
+      "value": "\"Liveness.RBKLivenessViewController\""
+    }
+  ]
+}
