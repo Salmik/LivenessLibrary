@@ -18,7 +18,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		uQz2qaZHJNqAJNiUlrqc25NGBmU=
+		mRRlp1mDgxFzdZ7LXFyB/9cWCes=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -58,7 +58,7 @@
 		</data>
 		<key>Headers/Liveness-Swift.h</key>
 		<data>
-		ZTQLBbeLiTds69C2eFiAe1LlUuY=
+		kgbpeInB2eOgZ7pr8QefxQrIQ68=
 		</data>
 		<key>Headers/RBKLiveness.h</key>
 		<data>
@@ -66,32 +66,59 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		BREXPIYDZ2W6BZ6P5/E9GnP7vwQ=
+		Ja9LFqaDU+W1VjpAKkRoy1f41bA=
 		</data>
 		<key>Modules/Liveness.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		M6Vu5vaoDI+o1B0zIifg1Pa/ROY=
+		/V0dt68IYtK3qe8vQIIs7V7ccCw=
 		</data>
 		<key>Modules/Liveness.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		YIRxaeiAqm/o/H4iXXmZvgqkSpQ=
+		Br3zzHtxccWmuB6R04Q50NX0fuU=
 		</data>
 		<key>Modules/Liveness.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		sU396m5SM/ZOa4CDaN6Ltk9IU1A=
+		vmPv0DgJh0X+9KUCUb1zR/wmjUQ=
 		</data>
 		<key>Modules/Liveness.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		YIRxaeiAqm/o/H4iXXmZvgqkSpQ=
+		Br3zzHtxccWmuB6R04Q50NX0fuU=
 		</data>
 		<key>Modules/Liveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6fW+mE2bhiBBgYl4vO53DN93qm4=
+		3ftqnSEvI7ZYPN2T9oC7HAmMf3A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		PsSypIIb3CBRJsQvUZdBIt51cSo=
 		</data>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			b5xQi6IHt9xsUM6a087sujovlDY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>kk.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			U6vipZZa75mUHsl8dDmU1s4yGBc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ru.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			e6iVAcrIyy/Gs4oPdA5oL9dTpVI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -120,7 +147,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gFsvCalTLKn82Sr4VMhy3wCmAvEwwGp/ucEhIcyjWXI=
+			8WwcsD7YcdgRrjH3OYhkq4Q1WZiEIIsb88xv26K3YxI=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -190,7 +217,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UCkIUkj2jgUQrmzAjj9yGL0lOREYJqxveO7KZOUeCFw=
+			BoOV8HHq5XQxX8IvSbxowo4nuWzle+s/HfFKRmPqhOg=
 			</data>
 		</dict>
 		<key>Headers/RBKLiveness.h</key>
@@ -204,35 +231,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7QhV9jBE6wVN48reAklFinEtsoY0fFgTOVRmHSq3CMw=
+			hloH4n1TNhA1oGHxA1gXnTCAe7gVHXWCfDI037j93Zg=
 			</data>
 		</dict>
 		<key>Modules/Liveness.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D4N95HS/lJJzaDtLeOy7/hb9GAH8iK0F00+y1eOQ4YM=
+			HHcBByWD4XNmYWsYrCtyltfGGmRMCAZ0HEZ/ivg8of0=
 			</data>
 		</dict>
 		<key>Modules/Liveness.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			x9xgb9DNjaPsw/GflmYh0/V2U0CN2JJeslwj9SWZAhs=
+			TGYGEprTWAoefCRcZOkSQ/54I2A+sOoUj1ByhG/RY78=
 			</data>
 		</dict>
 		<key>Modules/Liveness.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D4N95HS/lJJzaDtLeOy7/hb9GAH8iK0F00+y1eOQ4YM=
+			HHcBByWD4XNmYWsYrCtyltfGGmRMCAZ0HEZ/ivg8of0=
 			</data>
 		</dict>
 		<key>Modules/Liveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V/YK5XxrY/vMB6Z11+Yb2ol6DELMp0l3CqppIe+gi/8=
+			8vS8SKmwu8jBtrB746UvciM3+OyrwaHU9aolUwrcDDg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -241,6 +268,33 @@
 			<data>
 			eJ0cgdx4jSCAWu8ZvWrQ9GXkSsCAlwkkUulCmmP+EjE=
 			</data>
+		</dict>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			t6TsAc1i9EITLjplKa1Oj46faG1ITGuOnbhs+sVdtoM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>kk.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0E/q2gJ59FPOrh8D1RIp6+yRAp64jHyZhwMnpClDH5E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>ru.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			934ATPES4FM6MCpRJBEA3n+wynTydOMf2bzDsfvhcJ0=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>

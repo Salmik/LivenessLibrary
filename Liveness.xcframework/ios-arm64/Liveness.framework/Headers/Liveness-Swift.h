@@ -299,7 +299,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
-/// <code>RBKLivenessAction</code>: An enumeration that defines specific actions related to liveness detection within an iOS application using face recognition technology. Each case of this enumeration represents a different physical action that a user might be required to perform in front of the camera to verify their presence and identity. This enum is integral to the functioning of systems that require enhanced security measures through biometric verification methods.
+/// <code>LivenessAction</code>: An enumeration that defines specific actions related to liveness detection within an iOS application using face recognition technology. Each case of this enumeration represents a different physical action that a user might be required to perform in front of the camera to verify their presence and identity. This enum is integral to the functioning of systems that require enhanced security measures through biometric verification methods.
 /// Key Actions:
 /// <ul>
 ///   <li>
@@ -331,26 +331,27 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 ///   </li>
 /// </ul>
 /// This enumeration is typically used in conjunction with camera and facial recognition technologies to create robust, secure, and interactive user authentication systems.
-typedef SWIFT_ENUM(NSInteger, RBKLivenessAction, open) {
+typedef SWIFT_ENUM(NSInteger, LivenessAction, open) {
 /// Action representing a smile detection.
-  RBKLivenessActionSmile = 0,
+  LivenessActionSmile = 0,
 /// Action representing turning the head left.
-  RBKLivenessActionTurnLeft = 1,
+  LivenessActionTurnLeft = 1,
 /// Action representing turning the head right.
-  RBKLivenessActionTurnRight = 2,
+  LivenessActionTurnRight = 2,
 /// Action representing tilting the head left.
-  RBKLivenessActionTiltLeft = 3,
+  LivenessActionTiltLeft = 3,
 /// Action representing tilting the head right.
-  RBKLivenessActionTiltRight = 4,
+  LivenessActionTiltRight = 4,
 /// Action representing blinking detection.
-  RBKLivenessActionBlink = 5,
+  LivenessActionBlink = 5,
 /// Action representing opening the mouth.
-  RBKLivenessActionOpenMouth = 6,
+  LivenessActionOpenMouth = 6,
 /// Action representing saying a word.
-  RBKLivenessActionSayWord = 7,
+  LivenessActionSayWord = 7,
+  LivenessActionAdditional = 8,
 };
 
-/// <code>RBKLivenessAlert</code>
+/// <code>LivenessAlert</code>
 /// An enumeration defining specific alert conditions within liveness detection processes in iOS applications.
 /// Cases:
 /// <ul>
@@ -377,37 +378,37 @@ typedef SWIFT_ENUM(NSInteger, RBKLivenessAction, open) {
 ///   </li>
 /// </ul>
 /// Implementation:
-/// Implementing <code>RBKLivenessAlert</code> in liveness detection systems enhances user interaction by providing clear, actionable feedback. This helps users correct their positioning or actions, thus improving the overall effectiveness and security of the authentication process.
-typedef SWIFT_ENUM(NSInteger, RBKLivenessAlert, open) {
+/// Implementing <code>LivenessAlert</code> in liveness detection systems enhances user interaction by providing clear, actionable feedback. This helps users correct their positioning or actions, thus improving the overall effectiveness and security of the authentication process.
+typedef SWIFT_ENUM(NSInteger, LivenessAlert, open) {
 /// <ul>
 ///   <li>
 ///     <code>faceNotFound</code>: No face is detected. Used to prompt the user to align themselves correctly in the camera view.
 ///   </li>
 /// </ul>
-  RBKLivenessAlertFaceNotFound = 0,
+  LivenessAlertFaceNotFound = 0,
 /// <ul>
 ///   <li>
 ///     <code>singleFace</code>: More than one face is detected. Ensures that only the authorized user’s face is in view for liveness detection.
 ///   </li>
 /// </ul>
-  RBKLivenessAlertSingleFace = 1,
+  LivenessAlertSingleFace = 1,
 /// <ul>
 ///   <li>
 ///     <code>straightHeadOpenEyes</code>: Instructs the user to keep their head straight with eyes open, ensuring clear facial feature visibility.
 ///   </li>
 /// </ul>
-  RBKLivenessAlertStraightHeadOpenEyes = 2,
+  LivenessAlertStraightHeadOpenEyes = 2,
 /// <ul>
 ///   <li>
 ///     <code>headOutOfBounds</code>: The user’s head moves outside the camera’s designated focus area. Prompts repositioning for optimal detection.
 ///   </li>
 /// </ul>
-  RBKLivenessAlertHeadOutOfBounds = 3,
+  LivenessAlertHeadOutOfBounds = 3,
 };
 
 @class NSString;
 
-/// <code>RBKLivenessDataSource</code>
+/// <code>LivenessDataSource</code>
 /// A protocol in iOS development that defines the interface for supplying textual information related to various stages and alerts within a liveness detection system. This protocol plays a crucial role in localizing and customizing the user interface feedback during liveness detection processes, allowing dynamic content changes based on the specific action or alert encountered.
 /// Responsibilities:
 /// <ul>
@@ -449,44 +450,44 @@ typedef SWIFT_ENUM(NSInteger, RBKLivenessAlert, open) {
 ///   </li>
 /// </ul>
 /// This protocol is essential for making the liveness detection features in applications not only functional but also user-friendly and adaptable to various user environments and requirements.
-SWIFT_PROTOCOL("_TtP8Liveness21RBKLivenessDataSource_")
-@protocol RBKLivenessDataSource
+SWIFT_PROTOCOL("_TtP8Liveness18LivenessDataSource_")
+@protocol LivenessDataSource
 /// Returns the text to be displayed for a specific liveness alert.
 /// \param alert The type of liveness alert.
 ///
 ///
 /// returns:
 /// The text to be displayed for the alert.
-- (NSString * _Nullable)livenessWithTextForAlert:(enum RBKLivenessAlert)alert SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)livenessWithTextForAlert:(enum LivenessAlert)alert SWIFT_WARN_UNUSED_RESULT;
 /// Returns the text to be displayed for a specific liveness action.
 /// \param action The type of liveness action.
 ///
 ///
 /// returns:
 /// The text to be displayed for the action.
-- (NSString * _Nullable)livenessWithTextForAction:(enum RBKLivenessAction)action SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)livenessWithTextForAction:(enum LivenessAction)action SWIFT_WARN_UNUSED_RESULT;
 /// Returns the description text for a specific liveness action.
 /// \param action The type of liveness action.
 ///
 ///
 /// returns:
 /// The description text for the action.
-- (NSString * _Nullable)livenessWithDescriptionTextForAction:(enum RBKLivenessAction)action SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)livenessWithDescriptionTextForAction:(enum LivenessAction)action SWIFT_WARN_UNUSED_RESULT;
 /// Returns the text to be displayed when a specific liveness action is passed successfully.
 /// \param action The type of liveness action.
 ///
 ///
 /// returns:
 /// The text to be displayed for the passed action.
-- (NSString * _Nullable)livenessWithTextForPassedAction:(enum RBKLivenessAction)action SWIFT_WARN_UNUSED_RESULT;
+- (NSString * _Nullable)livenessWithTextForPassedAction:(enum LivenessAction)action SWIFT_WARN_UNUSED_RESULT;
 @end
 
 @class UIImage;
-@class RBKLivenessResult;
+@class LivenessResult;
 @class NSURL;
 
-/// <code>RBKLivenessDelegate</code>
-/// A protocol in iOS development that defines the delegate methods used by <code>RBKLivenessCameraController</code> to communicate liveness detection results back to the implementing class. This delegate protocol is essential for handling real-time feedback from the liveness detection system, including face detection, action progression, and video recording outcomes.
+/// <code>LivenessDelegate</code>
+/// A protocol in iOS development that defines the delegate methods used by <code>LivenessCameraController</code> to communicate liveness detection results back to the implementing class. This delegate protocol is essential for handling real-time feedback from the liveness detection system, including face detection, action progression, and video recording outcomes.
 /// Responsibilities:
 /// <ul>
 ///   <li>
@@ -530,8 +531,8 @@ SWIFT_PROTOCOL("_TtP8Liveness21RBKLivenessDataSource_")
 ///   </li>
 /// </ul>
 /// This protocol allows for tight integration between the camera controller and the broader application, ensuring that all aspects of liveness detection are appropriately managed and reflected in the user interface or system state.
-SWIFT_PROTOCOL("_TtP8Liveness19RBKLivenessDelegate_")
-@protocol RBKLivenessDelegate
+SWIFT_PROTOCOL("_TtP8Liveness16LivenessDelegate_")
+@protocol LivenessDelegate
 /// Called when a face is detected on the camera
 /// \param image UIImage of the captured face
 ///
@@ -539,20 +540,20 @@ SWIFT_PROTOCOL("_TtP8Liveness19RBKLivenessDelegate_")
 /// Called after the current action is displayed
 /// \param action Current action
 ///
-- (void)livenessWithWillPassAction:(enum RBKLivenessAction)action;
+- (void)livenessWithWillPassAction:(enum LivenessAction)action;
 /// Called after the current action is completed
 /// \param action Completed action
 ///
-- (void)livenessWithDidPassActionWith:(RBKLivenessResult * _Nonnull)result;
+- (void)livenessWithDidPassActionWith:(LivenessResult * _Nonnull)result;
 - (void)livenessWithDidRecordVideoTo:(NSURL * _Nonnull)url;
 /// Called after the successful completion of all actions
 - (void)livenessDidSucceed;
 @end
 
 
-SWIFT_CLASS("_TtC8Liveness17RBKLivenessResult")
-@interface RBKLivenessResult : NSObject
-@property (nonatomic, readonly) enum RBKLivenessAction action;
+SWIFT_CLASS("_TtC8Liveness14LivenessResult")
+@interface LivenessResult : NSObject
+@property (nonatomic, readonly) enum LivenessAction action;
 @property (nonatomic, readonly, strong) UIImage * _Nullable image;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
@@ -562,11 +563,11 @@ SWIFT_CLASS("_TtC8Liveness17RBKLivenessResult")
 @class NSCoder;
 @class NSBundle;
 
-/// <code>RBKLivenessViewController</code>: A UIViewController subclass that orchestrates the user interface and interaction flows for liveness detection in an iOS application. This class integrates various components including a camera controller, UI elements like labels and activity indicators, and business logic through an associated interactor. It manages the presentation of camera feeds, user prompts (e.g., “Turn your head to the left”), and feedback based on liveness detection results.
+/// <code>LivenessViewController</code>: A UIViewController subclass that orchestrates the user interface and interaction flows for liveness detection in an iOS application. This class integrates various components including a camera controller, UI elements like labels and activity indicators, and business logic through an associated interactor. It manages the presentation of camera feeds, user prompts (e.g., “Turn your head to the left”), and feedback based on liveness detection results.
 /// Example Usage:
 /// <ul>
 ///   <li>
-///     In a banking app, <code>RBKLivenessViewController</code> could be used during a security check to ensure that the account holder is a real person and is present during the transaction.
+///     In a banking app, <code>LivenessViewController</code> could be used during a security check to ensure that the account holder is a real person and is present during the transaction.
 ///   </li>
 ///   <li>
 ///     For access control in secure facilities, this controller can manage the process of capturing live facial features to compare with stored biometric data, ensuring that only authorized individuals gain entry.
@@ -588,12 +589,12 @@ SWIFT_CLASS("_TtC8Liveness17RBKLivenessResult")
 ///   </li>
 /// </ul>
 /// This controller is designed to be embedded within a larger authentication or security workflow, coordinating with other components of the application to provide a seamless and secure user experience.
-SWIFT_CLASS("_TtC8Liveness25RBKLivenessViewController")
-@interface RBKLivenessViewController : UIViewController
+SWIFT_CLASS("_TtC8Liveness22LivenessViewController")
+@interface LivenessViewController : UIViewController
 /// The delegate for liveness events.
-@property (nonatomic, weak) id <RBKLivenessDelegate> _Nullable delegate;
+@property (nonatomic, weak) id <LivenessDelegate> _Nullable delegate;
 /// The data source for liveness content.
-@property (nonatomic, weak) id <RBKLivenessDataSource> _Nullable dataSource;
+@property (nonatomic, weak) id <LivenessDataSource> _Nullable dataSource;
 /// Indicates whether to set the maximum brightness.
 @property (nonatomic) BOOL shouldSetMaxBrightness;
 /// The color of the title label.
@@ -616,18 +617,17 @@ SWIFT_CLASS("_TtC8Liveness25RBKLivenessViewController")
 
 @class UIFont;
 
-@interface RBKLivenessViewController (SWIFT_EXTENSION(Liveness))
+@interface LivenessViewController (SWIFT_EXTENSION(Liveness))
 /// The font for the title label.
 @property (nonatomic, strong) UIFont * _Nonnull titleFont;
 /// The font for the description label.
 @property (nonatomic, strong) UIFont * _Nonnull descriptionFont;
 /// The color for the description label text.
 @property (nonatomic, strong) UIColor * _Nonnull descriptionColor;
-/// The color for the activity indicator view.
-@property (nonatomic, strong) UIColor * _Nonnull activityIndicatorColor;
 /// Indicates whether the activity indicator view is currently loading.
 @property (nonatomic) BOOL isActivityIndicatorLoading;
 @end
+
 
 
 

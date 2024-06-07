@@ -1,4 +1,4 @@
-# RBKLiveness
+# Liveness
 
 ## Installation
 
@@ -9,13 +9,7 @@
 For iOS Swift projects:
 
 ```ruby
-pod 'RBKLiveness', :git => 'https://github.com/BankRBK/RBKLiveness.git', :tag => '1.2.3'
-```
-
-For iOS Obj-C projects:
-
-```ruby
-pod 'RBKLiveness', :git => 'https://github.com/BankRBK/RBKLiveness.git', :tag => '1.2.4'
+pod 'Liveness', :git => 'https://github.com/Salmik/LivenessLibrary', :tag => '1.0.3'
 ```
 
 ## Documentation
@@ -26,10 +20,8 @@ pod 'RBKLiveness', :git => 'https://github.com/BankRBK/RBKLiveness.git', :tag =>
 You can create a view controller that will capture face:
 
 ```swift
-let viewController = RBKLivenessViewController(isRecordingEnabled: true) // isRecordingEnabled is false by default
+let viewController = LivenessViewController(isRecordingEnabled: true) // isRecordingEnabled is false by default
 
-// You can skip this step, it will be generated automatically
-viewController.actions = [.turnLeft, .turnRight, .tiltLeft, .tiltRight, .smile, .openMouth, .blink, .sayWord] // All available actions
 
 // Delegate and DataSource
 viewController.delegate = self
@@ -53,13 +45,13 @@ viewController.shouldSetMaxBrightness = true
 Delegate methods:
 
 ```swift
-extension YourViewController: RBKLivenessDelegate {
+extension YourViewController: LivenessDelegate {
 
     func liveness(didCaptureFaceIn image: UIImage) {}
 
-    func liveness(willPassAction action: RBKLivenessAction) {}
+    func liveness(willPassAction action: LivenessAction) {}
 
-    func liveness(didPassActionWith result: RBKLivenessResult) {}
+    func liveness(didPassActionWith result: LivenessResult) {}
 
     func liveness(didRecordVideoTo url: URL) {}
 
@@ -70,9 +62,9 @@ extension YourViewController: RBKLivenessDelegate {
 DataSource methods: 
 
 ```swift
-extension YourViewController: RBKLivenessDataSource {
+extension YourViewController: LivenessDataSource {
 
-    func liveness(textForAlert alert: RBKLivenessAlert) -> String? {
+    func liveness(textForAlert alert: LivenessAlert) -> String? {
         // example
         switch alert {
         case .faceNotFound: return "Face not found"
@@ -81,7 +73,7 @@ extension YourViewController: RBKLivenessDataSource {
         }
     }
 
-    func liveness(textForAction action: RBKLivenessAction) -> String? {
+    func liveness(textForAction action: LivenessAction) -> String? {
         // example
         switch action {
         case .smile: return "Smile"
@@ -90,14 +82,14 @@ extension YourViewController: RBKLivenessDataSource {
         }
     }
 
-    func liveness(descriptionTextForAction action: RBKLivenessAction) -> String? {
+    func liveness(descriptionTextForAction action: LivenessAction) -> String? {
         switch action {
         case .turnLeft: return "Slowly turn your head back and forth. Your face must remain in the camera's field of view"
         ...
         }
     }
 
-    func liveness(textForPassedAction action: RBKLivenessAction) -> String? { 
+    func liveness(textForPassedAction action: LivenessAction) -> String? { 
         return "Success" 
     }
 }
