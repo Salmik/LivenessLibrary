@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		U8dSKPnUGXmGlaJH9YGx0kL8iu0=
+		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<data>
 		96Uw5p4tLIiDbN11Du0p0c5xqE8=
@@ -58,7 +62,7 @@
 		</data>
 		<key>Headers/Liveness-Swift.h</key>
 		<data>
-		kgbpeInB2eOgZ7pr8QefxQrIQ68=
+		6AIiyXlFh7J4fq/s4dmE8QIdfrk=
 		</data>
 		<key>Headers/RBKLiveness.h</key>
 		<data>
@@ -70,23 +74,23 @@
 		</data>
 		<key>Modules/Liveness.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		/V0dt68IYtK3qe8vQIIs7V7ccCw=
+		6pwZ8yHyjOhoRfpADuSZ34aAmfU=
 		</data>
 		<key>Modules/Liveness.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Br3zzHtxccWmuB6R04Q50NX0fuU=
+		NW8WlfGImQ+Ck+aNGoZEoJXgeIA=
 		</data>
 		<key>Modules/Liveness.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		vmPv0DgJh0X+9KUCUb1zR/wmjUQ=
+		WdME1Sr22YWMQQ4ZtmDBppQdTnc=
 		</data>
 		<key>Modules/Liveness.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Br3zzHtxccWmuB6R04Q50NX0fuU=
+		NW8WlfGImQ+Ck+aNGoZEoJXgeIA=
 		</data>
 		<key>Modules/Liveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3ftqnSEvI7ZYPN2T9oC7HAmMf3A=
+		iNhZIEaadBSRFxO8AK09TacgNpQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -96,32 +100,223 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			b5xQi6IHt9xsUM6a087sujovlDY=
+			uNMVRwgTOdqce+ZBG86W4ogh+fw=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>en_blink.wav</key>
+		<data>
+		p3jXZ1iRZI1bmD1aFZqGXWLc4GY=
+		</data>
+		<key>en_look_straight_and_keep_head_straight.wav</key>
+		<data>
+		CTOtAHEkrkp2H/8qyvxmYvwAslg=
+		</data>
+		<key>en_no_person_in_camera.wav</key>
+		<data>
+		OjlbKzRLxCC2Wdvm4DXyyjqNRYs=
+		</data>
+		<key>en_open_mouth.wav</key>
+		<data>
+		MPjkjhfQXAQ1KRY+krHb19i4KY0=
+		</data>
+		<key>en_put_head_inside_camera.wav</key>
+		<data>
+		Tmk0LUIy/J3o56muu5hY6vHpW/4=
+		</data>
+		<key>en_say_mama.wav</key>
+		<data>
+		TrAfXX3scdaIYDOi87X+d+9YXak=
+		</data>
+		<key>en_smile.wav</key>
+		<data>
+		GLsTKkwqLPPsU0PANnHcs4RWoik=
+		</data>
+		<key>en_success.wav</key>
+		<data>
+		U2x8jxYU3xTMgKzbR9ssE4sZxtQ=
+		</data>
+		<key>en_thump_up.wav</key>
+		<data>
+		f3wSWlmXrbd7e1KulDuQ7sAW8rw=
+		</data>
+		<key>en_tilt_head_left.wav</key>
+		<data>
+		uqPuK4CtPQ+XC9JuqEFreuJhlII=
+		</data>
+		<key>en_tilt_head_right.wav</key>
+		<data>
+		Hf/vc8GDYXyvsbVKGN5gzvq3iHc=
+		</data>
+		<key>en_too_many_persons_in_camera.wav</key>
+		<data>
+		w+giPhNlC5Kufzg9xNB2FSi6dOg=
+		</data>
+		<key>en_turn_head_left.wav</key>
+		<data>
+		njBAp2Knv9+JC78xYyrYcdtj0hg=
+		</data>
+		<key>en_turn_head_right.wav</key>
+		<data>
+		DwzoUvbe2mnhIX/6IM5i0/noJ68=
+		</data>
+		<key>en_victory.wav</key>
+		<data>
+		i1R9CGyjCIyFAL+D7MvtH8YXzh8=
+		</data>
+		<key>gesture_recognizer.task</key>
+		<data>
+		c0lHMYd87iM98gtDWKVUKpr8tew=
+		</data>
 		<key>kk.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			U6vipZZa75mUHsl8dDmU1s4yGBc=
+			oQPJbEl1PI/B5PAypwp3JRMgjbk=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>kk_blink.wav</key>
+		<data>
+		ZoWGGeXquI3Q+TsLtsMy6+wZ+/E=
+		</data>
+		<key>kk_look_straight_and_keep_head_straight.wav</key>
+		<data>
+		xSiKmzUkTfZWrXOE2uOADpK9D8w=
+		</data>
+		<key>kk_no_person_in_camera.wav</key>
+		<data>
+		YPTILBkDVu7aWw4MC6ApRuj2+lE=
+		</data>
+		<key>kk_open_mouth.wav</key>
+		<data>
+		l7T9VhpS76BF8q3+oas78utaS7U=
+		</data>
+		<key>kk_put_head_inside_camera.wav</key>
+		<data>
+		PM6GChhbAoB7U3ik23sE3mxyX64=
+		</data>
+		<key>kk_say_mama.wav</key>
+		<data>
+		udxC9ymGy/0GfWJ8yxCCAG0kjTw=
+		</data>
+		<key>kk_smile.wav</key>
+		<data>
+		xe1eL4JmeZRHpbHUIcAzmbczarQ=
+		</data>
+		<key>kk_success.wav</key>
+		<data>
+		aIHdYZ5o9/Dlg9ZZmvbpPxEDZRI=
+		</data>
+		<key>kk_thumb_up.wav</key>
+		<data>
+		1d57iqDE7dUCBrWTgD8Um+s5UcU=
+		</data>
+		<key>kk_tilt_head_left.wav</key>
+		<data>
+		JFt4apJ06oOalK3NiOQUeh+atzg=
+		</data>
+		<key>kk_tilt_head_right.wav</key>
+		<data>
+		+p89XXrieXAY7q/fMf48iZWTBqE=
+		</data>
+		<key>kk_too_many_persons_in_camera.wav</key>
+		<data>
+		kcvEomzL4VFhwKowOPiCpcoSn6A=
+		</data>
+		<key>kk_turn_head_left.wav</key>
+		<data>
+		DdoSxr1RRsPMYSWPrXKTZP6RZ9E=
+		</data>
+		<key>kk_turn_head_right.wav</key>
+		<data>
+		Lou7Zf1GXopSn+3gSMvCyWwhYQc=
+		</data>
+		<key>kk_victory.wav</key>
+		<data>
+		XxXBbIk86krd5VFKKr1Pbdolpss=
+		</data>
 		<key>ru.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			e6iVAcrIyy/Gs4oPdA5oL9dTpVI=
+			c7JRSKHg17Kk+a2zFBtqE9ws1fo=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>ru_blink.wav</key>
+		<data>
+		sUKAxOI8qPy0/0AvxjXBw3fQDpk=
+		</data>
+		<key>ru_look_straight_and_keep_head_straight.wav</key>
+		<data>
+		MtscVVPD+87qrTPklT8rcjUR5y0=
+		</data>
+		<key>ru_no_person_in_camera.wav</key>
+		<data>
+		cnoqgkcJqkziOrKrsqi9PRN96ys=
+		</data>
+		<key>ru_open_mouth.wav</key>
+		<data>
+		JgwWPp0chEylhiWGUinvnheKLzA=
+		</data>
+		<key>ru_put_head_inside_camera.wav</key>
+		<data>
+		KJB5j9FRqLqwOcYHw4aezD6ZKww=
+		</data>
+		<key>ru_say_mama.wav</key>
+		<data>
+		XSohtcChkmQt34JF9cZ+V61F7T0=
+		</data>
+		<key>ru_smile.wav</key>
+		<data>
+		MbsC7acr1h+qLYW10CRZ05vJguo=
+		</data>
+		<key>ru_success.wav</key>
+		<data>
+		u7+u0gLpc88l6glVEDkICqbyFps=
+		</data>
+		<key>ru_thumb_up.wav</key>
+		<data>
+		aZK0JaKEypETalOEacdbEWcLoGk=
+		</data>
+		<key>ru_tilt_head_left.wav</key>
+		<data>
+		pVBmaO4xCAE6c6N2ozgzLf9D+5A=
+		</data>
+		<key>ru_tilt_head_right.wav</key>
+		<data>
+		aBfEPmMtZWmX8Tfp/0FFIqRwWj0=
+		</data>
+		<key>ru_too_many_persons_in_camera.wav</key>
+		<data>
+		YuB3IteAt2Ne+KEuOba2033eVs4=
+		</data>
+		<key>ru_turn_head_left.wav</key>
+		<data>
+		EHz6/+9ehOo2+5tk8cvQlKiRQ3Q=
+		</data>
+		<key>ru_turn_head_right.wav</key>
+		<data>
+		ogqdmZ8zSceVnHSdt2n2PuV2u2g=
+		</data>
+		<key>ru_victory.wav</key>
+		<data>
+		XfgR6OxJ97iUrdTboY5gIGNEgpI=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lGzKg4HkI8WWqGJLZcqEnEl+fOQ63F2WNw1GH1cMKs4=
+			</data>
+		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/BCLjoy_200.emd</key>
 		<dict>
 			<key>hash2</key>
@@ -217,7 +412,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BoOV8HHq5XQxX8IvSbxowo4nuWzle+s/HfFKRmPqhOg=
+			hqmmGz3Bjvch3G33JfNv9gWPc1yjYGWlWkkDFo64q2I=
 			</data>
 		</dict>
 		<key>Headers/RBKLiveness.h</key>
@@ -231,35 +426,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hloH4n1TNhA1oGHxA1gXnTCAe7gVHXWCfDI037j93Zg=
+			qolepuPD+KZu+yOjw1iZwCuDNYWKVxnZ7XNUEKN1EfI=
 			</data>
 		</dict>
 		<key>Modules/Liveness.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HHcBByWD4XNmYWsYrCtyltfGGmRMCAZ0HEZ/ivg8of0=
+			YKLoZsCUR3nuGLkJcfpCUS5T655oeavj/LbFJaMzcJ0=
 			</data>
 		</dict>
 		<key>Modules/Liveness.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TGYGEprTWAoefCRcZOkSQ/54I2A+sOoUj1ByhG/RY78=
+			t1z0zfHyGLyEQ+W/eX4Xypl3SSd6fsGCbJyXAtNtcGA=
 			</data>
 		</dict>
 		<key>Modules/Liveness.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HHcBByWD4XNmYWsYrCtyltfGGmRMCAZ0HEZ/ivg8of0=
+			YKLoZsCUR3nuGLkJcfpCUS5T655oeavj/LbFJaMzcJ0=
 			</data>
 		</dict>
 		<key>Modules/Liveness.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8vS8SKmwu8jBtrB746UvciM3+OyrwaHU9aolUwrcDDg=
+			npO0gq2RSm89DgWhFWa6xD6TQ8pdavaOLufXKfg7ca0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -273,28 +468,350 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			t6TsAc1i9EITLjplKa1Oj46faG1ITGuOnbhs+sVdtoM=
+			pO0sCmONkH19p/h/IdnZqZpUr0YjEQdrcYeKJUUrDgg=
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>en_blink.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OFWIGT6oNsnu9qetKqggOZrBoZ2SePAA5hDcC+JeAeg=
+			</data>
+		</dict>
+		<key>en_look_straight_and_keep_head_straight.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			umXOw/vlHVrKWWEEtdVnsRgU690h7bzbKKSA9dE4fZw=
+			</data>
+		</dict>
+		<key>en_no_person_in_camera.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			luVwCNy6yXXXsH58DFMokfjXfdwuE+17ljcEmFals1s=
+			</data>
+		</dict>
+		<key>en_open_mouth.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bY41XjJMTkGakv5dwfbhQz40O9z+irA9rP8BZqxrYCY=
+			</data>
+		</dict>
+		<key>en_put_head_inside_camera.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TRD2TUjrOxjxL1zot+okeDJPAy+CpWiCqXBbIpur4Ck=
+			</data>
+		</dict>
+		<key>en_say_mama.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mevK7LolOUCFsVJFzbxVJpyEi53yGZzz2ksxmEHooGY=
+			</data>
+		</dict>
+		<key>en_smile.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VDzR2bzb6PdH2DV3AgRCcYl14sJtNS0HLz4ebKcDyss=
+			</data>
+		</dict>
+		<key>en_success.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Nnlg689hjDLNFGvJHFWsWczgdIMYuk9RijFuf/IBi7Y=
+			</data>
+		</dict>
+		<key>en_thump_up.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HgYqGxYIyaFKtc0ILR4s1wcLfVSm/Kpd29ZeI6a67Uo=
+			</data>
+		</dict>
+		<key>en_tilt_head_left.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9LRfIYeAwOAlr022YDCxreaYITYj/fUvcZ5RVw1eTVM=
+			</data>
+		</dict>
+		<key>en_tilt_head_right.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hy0n3u5CcmNcvAFVKErvCGPgQ8u4hdqLvk1zM6iqWBw=
+			</data>
+		</dict>
+		<key>en_too_many_persons_in_camera.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			p1BqWvrpj4a3JbYLMDDTCsvCBc+RXSpAyxxXxcXDQ7E=
+			</data>
+		</dict>
+		<key>en_turn_head_left.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			b+Rr6pg1p89DdNyZ7PpC+4bK6XuIRkXyrYCza+Kf01A=
+			</data>
+		</dict>
+		<key>en_turn_head_right.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uezxlbXtze91GCm2x6QrH1BEGsxaVYGuCFcoTfDwKyI=
+			</data>
+		</dict>
+		<key>en_victory.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nGfsXnvAu27jbBDluPSGACJuEbQNj4p4CJmJ5SiAj6Y=
+			</data>
+		</dict>
+		<key>gesture_recognizer.task</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			l5UjSM9qakkVwuoUlrSzfrq8UMu/gFcUNWQ8RV8rBII=
+			</data>
 		</dict>
 		<key>kk.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0E/q2gJ59FPOrh8D1RIp6+yRAp64jHyZhwMnpClDH5E=
+			3fSP9TePdgWqtxom/Wkb8NVMJmYfo9XENRY859rGuRk=
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>kk_blink.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wYN1I72oRKhNBVOHkz7FdIQtazHCbqwf3FdVTIE5e0k=
+			</data>
+		</dict>
+		<key>kk_look_straight_and_keep_head_straight.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GCMcSzqqLIH3myeTPIjn4TQHvloq6KnXb/l47fx2ag8=
+			</data>
+		</dict>
+		<key>kk_no_person_in_camera.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ngBnhDNHpUiYOS9iVSUCuUAEUNXqVPlAL41tZFCrBgA=
+			</data>
+		</dict>
+		<key>kk_open_mouth.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aeD+jtpwHGVZRkXjE99DShwnsw6y9qrSh1kI8scFiWA=
+			</data>
+		</dict>
+		<key>kk_put_head_inside_camera.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jbKQNq6yOCxzPqWX2GAps+PGGVkG6mbQEYt67VVOqQU=
+			</data>
+		</dict>
+		<key>kk_say_mama.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			w5TQOehYeLrlNJu8q+nDEfXTuqBbtSwUhGKCTn6ZmPI=
+			</data>
+		</dict>
+		<key>kk_smile.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GlgZGJo42HgJ8zLZ5+p6HPfac/Gj7MueQrhBRZYBaAE=
+			</data>
+		</dict>
+		<key>kk_success.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ADlcgu/0KW6JI4oATw54Jlut6LQKQwqylkMUGMiBVw0=
+			</data>
+		</dict>
+		<key>kk_thumb_up.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5MkqWarMJ9Yg6lNv8Du6HDxF+uDMHblZYrY4AB9V2/4=
+			</data>
+		</dict>
+		<key>kk_tilt_head_left.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZJEFW3UWuw43gBsVV3PFtPBLIGvNifvoiop++nwl10k=
+			</data>
+		</dict>
+		<key>kk_tilt_head_right.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UyTm2AmE2vKo3M6XAhtLKIEHDZYDF8G1trAMosZxOHo=
+			</data>
+		</dict>
+		<key>kk_too_many_persons_in_camera.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NCs08XUujDvyfuftxzxV/IB+4wDkSYI+2TDhKR/TQj0=
+			</data>
+		</dict>
+		<key>kk_turn_head_left.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sRnXtMk28jpIjY4yJIAxK/OoS8TqY+4HyMWxwzvMR0Q=
+			</data>
+		</dict>
+		<key>kk_turn_head_right.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			druohAdOJtmfCPv4dNH+lcJZe2w4QTG8tSKCxEq8BpA=
+			</data>
+		</dict>
+		<key>kk_victory.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ggIyZf8zSuS+9rrYdYOe9iH3JG9C0yxtJPogq2u2uPU=
+			</data>
 		</dict>
 		<key>ru.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			934ATPES4FM6MCpRJBEA3n+wynTydOMf2bzDsfvhcJ0=
+			7sRa0k1ktuIGeeaOeam127VSadaUv/A9M6CXV0LbjK4=
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>ru_blink.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mfuINw8MG5sj8VrZm0sJvWSv5NxFX4+eVBlDQVdMDaM=
+			</data>
+		</dict>
+		<key>ru_look_straight_and_keep_head_straight.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qGS4L5u5FwQfYsAEBxH0u+Fk8QePiFzRKTfA4WJH1uI=
+			</data>
+		</dict>
+		<key>ru_no_person_in_camera.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JzWj2U38NtBcNOBb9El2SV96e6WlYBOe4jNTtS1cAiY=
+			</data>
+		</dict>
+		<key>ru_open_mouth.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NgrujcVKM0o/51z6jcEzrrtrt/EFBrTrxWZllkAStjw=
+			</data>
+		</dict>
+		<key>ru_put_head_inside_camera.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			T3N7eNx+O6JcAQuLv2aRC9B3cCCgLx5BCeQFPzwxW+Q=
+			</data>
+		</dict>
+		<key>ru_say_mama.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			blvNPp6/GvwfN1+FXykMW0f7XmvEMHy097sJrKioINo=
+			</data>
+		</dict>
+		<key>ru_smile.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kxff0MTKlaJvFdh4iKuhLRyWVfvgRS7fOyqRnMNPShg=
+			</data>
+		</dict>
+		<key>ru_success.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BlrNDRvtsXTHwig06EnFDFtsLxf+rdyo7wuxV4/BBJA=
+			</data>
+		</dict>
+		<key>ru_thumb_up.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0mBo0P9M4CEfiAPYdlkguK7tYBg193zgS4D5uEAqKjA=
+			</data>
+		</dict>
+		<key>ru_tilt_head_left.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7KHO5xU/THEktU7F1AfvGaTSi49nYz3D/ZYFoRp5BPU=
+			</data>
+		</dict>
+		<key>ru_tilt_head_right.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			36Kh16hbw6YHxxbAZ3n7tjZUX/D/GtpazLTJUSTEwJs=
+			</data>
+		</dict>
+		<key>ru_too_many_persons_in_camera.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DJqE+CC5XrpF7wF8jG/CQtoctkh6cJmcSnBtiCX2QDA=
+			</data>
+		</dict>
+		<key>ru_turn_head_left.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cYXe2GQrj1OQGOhLnRFEVV/EYYRH/le9a4fPzElNEwc=
+			</data>
+		</dict>
+		<key>ru_turn_head_right.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hZwGLEEx3lfZrlFoABUQM9DTZVFZa1M9IBzecL1JDjw=
+			</data>
+		</dict>
+		<key>ru_victory.wav</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gWw9SFA6D/y4ypin93lln/zBR7zt2SKg1jkSXR+ugf0=
+			</data>
 		</dict>
 	</dict>
 	<key>rules</key>

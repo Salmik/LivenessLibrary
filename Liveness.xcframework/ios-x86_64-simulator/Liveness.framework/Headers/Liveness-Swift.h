@@ -299,6 +299,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+
 /// <code>LivenessAction</code>: An enumeration that defines specific actions related to liveness detection within an iOS application using face recognition technology. Each case of this enumeration represents a different physical action that a user might be required to perform in front of the camera to verify their presence and identity. This enum is integral to the functioning of systems that require enhanced security measures through biometric verification methods.
 /// Key Actions:
 /// <ul>
@@ -324,7 +325,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 /// Example Usage:
 /// <ul>
 ///   <li>
-///     In financial apps, <code>RBKLivenessAction</code> can be used during critical transactions to ensure that the person conducting the transaction is the rightful owner of the account.
+///     In financial apps, <code>LivenessAction</code> can be used during critical transactions to ensure that the person conducting the transaction is the rightful owner of the account.
 ///   </li>
 ///   <li>
 ///     In secure entry systems, actions like turning the head or blinking might be required for entry to ensure that the system is interacting with a live person.
@@ -349,6 +350,12 @@ typedef SWIFT_ENUM(NSInteger, LivenessAction, open) {
 /// Action representing saying a word.
   LivenessActionSayWord = 7,
   LivenessActionAdditional = 8,
+/// Action representing show gesture .thumb up
+  LivenessActionThumbUp = 9,
+/// Action representing show gesture .victory
+  LivenessActionVictory = 10,
+  LivenessActionTiltUp = 11,
+  LivenessActionSlopeDown = 12,
 };
 
 /// <code>LivenessAlert</code>
@@ -440,13 +447,28 @@ typedef SWIFT_ENUM(NSInteger, LivenessAlert, open) {
 ///     <code>liveness(textForAlert:)</code>: Method to return a string representing the message for specific alerts like face not found or multiple faces detected.
 ///   </li>
 ///   <li>
+///     to use the default implementation, you must call the <code>defaultLiveness(textForAlert:)</code> in the closure of this method
+///   </li>
+///   <li>
 ///     <code>liveness(textForAction:)</code>: Method that provides instructional text for a given action, such as “Turn your head to the left”.
+///   </li>
+///   <li>
+///     to use the default implementation, you must call the <code>defaultLiveness(textForAction:)</code> in the closure of this method
 ///   </li>
 ///   <li>
 ///     <code>liveness(descriptionTextForAction:)</code>: Offers a more detailed explanation of the action, helping to ensure that the user is clear on what is expected.
 ///   </li>
 ///   <li>
+///     to use the default implementation, you must call the <code>defaultLiveness(descriptionTextForAction:)</code> in the closure of this method
+///   </li>
+///   <li>
 ///     <code>liveness(textForPassedAction:)</code>: Delivers feedback once an action is successfully completed, such as “Action successfully completed”.
+///   </li>
+///   <li>
+///     to use the default implementation, you must call the <code>defaultLiveness(textForPassedAction:)</code> in the closure of this method
+///   </li>
+///   <li>
+///     <code>Attention!</code> To use default values, you have to enable language support in your application
 ///   </li>
 /// </ul>
 /// This protocol is essential for making the liveness detection features in applications not only functional but also user-friendly and adaptable to various user environments and requirements.
@@ -600,7 +622,9 @@ SWIFT_CLASS("_TtC8Liveness22LivenessViewController")
 /// The color of the title label.
 @property (nonatomic, strong) UIColor * _Nonnull titleColor;
 /// The text displayed during loading states.
-@property (nonatomic, copy) NSString * _Nullable loadingText;
+@property (nonatomic, copy) NSString * _Nonnull loadingText;
+/// Indicates whether to set the gesture actions
+@property (nonatomic) BOOL isGestureActions;
 /// Initializes the liveness view controller.
 /// \param isRecordingEnabled Indicates whether recording is enabled.
 ///
@@ -612,6 +636,7 @@ SWIFT_CLASS("_TtC8Liveness22LivenessViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
+
 
 
 

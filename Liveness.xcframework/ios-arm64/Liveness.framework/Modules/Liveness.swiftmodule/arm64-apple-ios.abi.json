@@ -301,6 +301,43 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Liveness"
+      },
+      {
+        "kind": "Import",
+        "name": "MediaPipeTasksVision",
+        "printedName": "MediaPipeTasksVision",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
         "declKind": "Import",
@@ -381,6 +418,16 @@
         "kind": "Import",
         "name": "MLKitFaceDetection",
         "printedName": "MLKitFaceDetection",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MediaPipeTasksVision",
+        "printedName": "MediaPipeTasksVision",
         "declKind": "Import",
         "moduleName": "Liveness",
         "declAttributes": [
@@ -645,6 +692,38 @@
             "usr": "s:8Liveness0A7MessageO17imageCaptureErroryA2CmF",
             "mangledName": "$s8Liveness0A7MessageO17imageCaptureErroryA2CmF",
             "moduleName": "Liveness"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessMessage",
+                "printedName": "Liveness.LivenessMessage",
+                "usr": "s:8Liveness0A7MessageO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LivenessMessage",
+                "printedName": "Liveness.LivenessMessage",
+                "usr": "s:8Liveness0A7MessageO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8Liveness0A7MessageO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s8Liveness0A7MessageO2eeoiySbAC_ACtFZ",
+            "moduleName": "Liveness",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
@@ -653,6 +732,45 @@
         "moduleName": "Liveness",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MediaPipeTasksVision",
+        "printedName": "MediaPipeTasksVision",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -832,8 +950,8 @@
           },
           {
             "kind": "Function",
-            "name": "liveness",
-            "printedName": "liveness(textForAlert:)",
+            "name": "defaultLiveness",
+            "printedName": "defaultLiveness(textForAlert:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -857,8 +975,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8Liveness0A10DataSourcePAAE8liveness12textForAlertSSSgAA0aG0O_tF",
-            "mangledName": "$s8Liveness0A10DataSourcePAAE8liveness12textForAlertSSSgAA0aG0O_tF",
+            "usr": "s:8Liveness0A10DataSourcePAAE07defaultA012textForAlertSSSgAA0aG0O_tF",
+            "mangledName": "$s8Liveness0A10DataSourcePAAE07defaultA012textForAlertSSSgAA0aG0O_tF",
             "moduleName": "Liveness",
             "genericSig": "<τ_0_0 where τ_0_0 : Liveness.LivenessDataSource>",
             "sugared_genericSig": "<Self where Self : Liveness.LivenessDataSource>",
@@ -870,8 +988,8 @@
           },
           {
             "kind": "Function",
-            "name": "liveness",
-            "printedName": "liveness(textForAction:)",
+            "name": "defaultLiveness",
+            "printedName": "defaultLiveness(textForAction:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -895,8 +1013,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8Liveness0A10DataSourcePAAE8liveness13textForActionSSSgAA0aG0O_tF",
-            "mangledName": "$s8Liveness0A10DataSourcePAAE8liveness13textForActionSSSgAA0aG0O_tF",
+            "usr": "s:8Liveness0A10DataSourcePAAE07defaultA013textForActionSSSgAA0aG0O_tF",
+            "mangledName": "$s8Liveness0A10DataSourcePAAE07defaultA013textForActionSSSgAA0aG0O_tF",
             "moduleName": "Liveness",
             "genericSig": "<τ_0_0 where τ_0_0 : Liveness.LivenessDataSource>",
             "sugared_genericSig": "<Self where Self : Liveness.LivenessDataSource>",
@@ -908,8 +1026,8 @@
           },
           {
             "kind": "Function",
-            "name": "liveness",
-            "printedName": "liveness(descriptionTextForAction:)",
+            "name": "defaultLiveness",
+            "printedName": "defaultLiveness(descriptionTextForAction:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -933,8 +1051,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8Liveness0A10DataSourcePAAE8liveness24descriptionTextForActionSSSgAA0aH0O_tF",
-            "mangledName": "$s8Liveness0A10DataSourcePAAE8liveness24descriptionTextForActionSSSgAA0aH0O_tF",
+            "usr": "s:8Liveness0A10DataSourcePAAE07defaultA024descriptionTextForActionSSSgAA0aH0O_tF",
+            "mangledName": "$s8Liveness0A10DataSourcePAAE07defaultA024descriptionTextForActionSSSgAA0aH0O_tF",
             "moduleName": "Liveness",
             "genericSig": "<τ_0_0 where τ_0_0 : Liveness.LivenessDataSource>",
             "sugared_genericSig": "<Self where Self : Liveness.LivenessDataSource>",
@@ -946,8 +1064,8 @@
           },
           {
             "kind": "Function",
-            "name": "liveness",
-            "printedName": "liveness(textForPassedAction:)",
+            "name": "defaultLiveness",
+            "printedName": "defaultLiveness(textForPassedAction:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -971,8 +1089,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:8Liveness0A10DataSourcePAAE8liveness19textForPassedActionSSSgAA0aH0O_tF",
-            "mangledName": "$s8Liveness0A10DataSourcePAAE8liveness19textForPassedActionSSSgAA0aH0O_tF",
+            "usr": "s:8Liveness0A10DataSourcePAAE07defaultA019textForPassedActionSSSgAA0aH0O_tF",
+            "mangledName": "$s8Liveness0A10DataSourcePAAE07defaultA019textForPassedActionSSSgAA0aH0O_tF",
             "moduleName": "Liveness",
             "genericSig": "<τ_0_0 where τ_0_0 : Liveness.LivenessDataSource>",
             "sugared_genericSig": "<Self where Self : Liveness.LivenessDataSource>",
@@ -992,6 +1110,16 @@
         "declAttributes": [
           "AccessControl",
           "ObjC",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
           "RawDocComment"
         ]
       },
@@ -1535,6 +1663,26 @@
       },
       {
         "kind": "Import",
+        "name": "MediaPipeTasksVision",
+        "printedName": "MediaPipeTasksVision",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1926,6 +2074,172 @@
             "fixedbinaryorder": 8
           },
           {
+            "kind": "Var",
+            "name": "thumbUp",
+            "printedName": "thumbUp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Liveness.LivenessAction.Type) -> Liveness.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "Liveness.LivenessAction",
+                    "usr": "c:@M@Liveness@E@LivenessAction"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Liveness.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "Liveness.LivenessAction",
+                        "usr": "c:@M@Liveness@E@LivenessAction"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Liveness@E@LivenessAction@LivenessActionThumbUp",
+            "mangledName": "$s8Liveness0A6ActionO7thumbUpyA2CmF",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 9
+          },
+          {
+            "kind": "Var",
+            "name": "victory",
+            "printedName": "victory",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Liveness.LivenessAction.Type) -> Liveness.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "Liveness.LivenessAction",
+                    "usr": "c:@M@Liveness@E@LivenessAction"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Liveness.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "Liveness.LivenessAction",
+                        "usr": "c:@M@Liveness@E@LivenessAction"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Liveness@E@LivenessAction@LivenessActionVictory",
+            "mangledName": "$s8Liveness0A6ActionO7victoryyA2CmF",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "fixedbinaryorder": 10
+          },
+          {
+            "kind": "Var",
+            "name": "tiltUp",
+            "printedName": "tiltUp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Liveness.LivenessAction.Type) -> Liveness.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "Liveness.LivenessAction",
+                    "usr": "c:@M@Liveness@E@LivenessAction"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Liveness.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "Liveness.LivenessAction",
+                        "usr": "c:@M@Liveness@E@LivenessAction"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Liveness@E@LivenessAction@LivenessActionTiltUp",
+            "mangledName": "$s8Liveness0A6ActionO6tiltUpyA2CmF",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 11
+          },
+          {
+            "kind": "Var",
+            "name": "slopeDown",
+            "printedName": "slopeDown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Liveness.LivenessAction.Type) -> Liveness.LivenessAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LivenessAction",
+                    "printedName": "Liveness.LivenessAction",
+                    "usr": "c:@M@Liveness@E@LivenessAction"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "Liveness.LivenessAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LivenessAction",
+                        "printedName": "Liveness.LivenessAction",
+                        "usr": "c:@M@Liveness@E@LivenessAction"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@Liveness@E@LivenessAction@LivenessActionSlopeDown",
+            "mangledName": "$s8Liveness0A6ActionO9slopeDownyA2CmF",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 12
+          },
+          {
             "kind": "Function",
             "name": "generate",
             "printedName": "generate()",
@@ -2080,6 +2394,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Liveness",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -2087,6 +2411,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "Liveness"
       },
       {
         "kind": "TypeDecl",
@@ -2514,22 +2845,14 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Var",
             "usr": "c:@M@Liveness@objc(cs)LivenessViewController(py)loadingText",
-            "mangledName": "$s8Liveness0A14ViewControllerC11loadingTextSSSgvp",
+            "mangledName": "$s8Liveness0A14ViewControllerC11loadingTextSSvp",
             "moduleName": "Liveness",
             "declAttributes": [
               "HasInitialValue",
@@ -2548,22 +2871,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@Liveness@objc(cs)LivenessViewController(im)loadingText",
-                "mangledName": "$s8Liveness0A14ViewControllerC11loadingTextSSSgvg",
+                "mangledName": "$s8Liveness0A14ViewControllerC11loadingTextSSvg",
                 "moduleName": "Liveness",
                 "implicit": true,
                 "declAttributes": [
@@ -2583,22 +2898,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "declKind": "Accessor",
                 "usr": "c:@M@Liveness@objc(cs)LivenessViewController(im)setLoadingText:",
-                "mangledName": "$s8Liveness0A14ViewControllerC11loadingTextSSSgvs",
+                "mangledName": "$s8Liveness0A14ViewControllerC11loadingTextSSvs",
                 "moduleName": "Liveness",
                 "implicit": true,
                 "declAttributes": [
@@ -2618,8 +2925,103 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:8Liveness0A14ViewControllerC11loadingTextSSSgvM",
-                "mangledName": "$s8Liveness0A14ViewControllerC11loadingTextSSSgvM",
+                "usr": "s:8Liveness0A14ViewControllerC11loadingTextSSvM",
+                "mangledName": "$s8Liveness0A14ViewControllerC11loadingTextSSvM",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isGestureActions",
+            "printedName": "isGestureActions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@Liveness@objc(cs)LivenessViewController(py)isGestureActions",
+            "mangledName": "$s8Liveness0A14ViewControllerC16isGestureActionsSbvp",
+            "moduleName": "Liveness",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "Custom",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Liveness@objc(cs)LivenessViewController(im)isGestureActions",
+                "mangledName": "$s8Liveness0A14ViewControllerC16isGestureActionsSbvg",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@Liveness@objc(cs)LivenessViewController(im)setIsGestureActions:",
+                "mangledName": "$s8Liveness0A14ViewControllerC16isGestureActionsSbvs",
+                "moduleName": "Liveness",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:8Liveness0A14ViewControllerC16isGestureActionsSbvM",
+                "mangledName": "$s8Liveness0A14ViewControllerC16isGestureActionsSbvM",
                 "moduleName": "Liveness",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3280,133 +3682,154 @@
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAlert.swift",
       "kind": "IntegerLiteral",
-      "offset": 1691,
+      "offset": 1683,
       "length": 10,
       "value": "1"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAlert.swift",
       "kind": "IntegerLiteral",
-      "offset": 1850,
+      "offset": 1842,
       "length": 20,
       "value": "2"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAlert.swift",
       "kind": "IntegerLiteral",
-      "offset": 2020,
+      "offset": 2012,
       "length": 15,
       "value": "3"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAlert.swift",
       "kind": "IntegerLiteral",
-      "offset": 1691,
+      "offset": 1683,
       "length": 10,
       "value": "1"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAlert.swift",
       "kind": "IntegerLiteral",
-      "offset": 1850,
+      "offset": 1842,
       "length": 20,
       "value": "2"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAlert.swift",
       "kind": "IntegerLiteral",
-      "offset": 2020,
+      "offset": 2012,
       "length": 15,
       "value": "3"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Utils\/Gesture Recognizer\/GestureRecognizerService.swift",
+      "kind": "StringLiteral",
+      "offset": 642,
+      "length": 24,
+      "value": "\"Liveness.GestureRecognizerService\""
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/CameraController.swift",
       "kind": "StringLiteral",
-      "offset": 2037,
+      "offset": 2026,
       "length": 16,
       "value": "\"Liveness.CameraController\""
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Utils\/UIView+extension.swift",
       "kind": "BooleanLiteral",
-      "offset": 254,
+      "offset": 251,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/ArrowsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 206,
+      "offset": 203,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/ArrowsView.swift",
       "kind": "IntegerLiteral",
-      "offset": 210,
+      "offset": 207,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2153,
+      "offset": 2200,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessCameraController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2414,
+      "offset": 2461,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessCameraController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2499,
+      "offset": 2546,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessCameraController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2594,
+      "offset": 2641,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2819,
+      "offset": 2866,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessCameraController.swift",
       "kind": "Dictionary",
-      "offset": 2945,
+      "offset": 2992,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3042,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessCameraController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3889,
+      "offset": 3089,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessCameraController.swift",
       "kind": "StringLiteral",
-      "offset": 1895,
+      "offset": 3621,
+      "length": 43,
+      "value": "\"liveness.cameraController.backgroundQueue\""
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessCameraController.swift",
+      "kind": "StringLiteral",
+      "offset": 3742,
+      "length": 57,
+      "value": "\"liveness.cameraController.gestureRecognizerServiceQueue\""
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessCameraController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5357,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessCameraController.swift",
+      "kind": "StringLiteral",
+      "offset": 1942,
       "length": 24,
       "value": "\"Liveness.LivenessCameraController\""
     },
@@ -3432,193 +3855,298 @@
       "value": "8"
     },
     {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/VolumeButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 298,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Utils\/Notification+extension.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 21,
+      "value": "\"cameraAccessChanged\""
+    },
+    {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Utils\/UIColor+extension.swift",
       "kind": "IntegerLiteral",
-      "offset": 256,
+      "offset": 253,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessManager.swift",
       "kind": "FloatLiteral",
-      "offset": 285,
+      "offset": 283,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/LivenessResult.swift",
       "kind": "StringLiteral",
-      "offset": 129,
+      "offset": 123,
       "length": 14,
       "value": "\"Liveness.LivenessResult\""
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
       "kind": "IntegerLiteral",
-      "offset": 2209,
+      "offset": 2198,
       "length": 8,
       "value": "1"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
       "kind": "IntegerLiteral",
-      "offset": 2280,
+      "offset": 2269,
       "length": 9,
       "value": "2"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
       "kind": "IntegerLiteral",
-      "offset": 2351,
+      "offset": 2340,
       "length": 8,
       "value": "3"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
       "kind": "IntegerLiteral",
-      "offset": 2422,
+      "offset": 2411,
       "length": 9,
       "value": "4"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
       "kind": "IntegerLiteral",
-      "offset": 2490,
+      "offset": 2479,
       "length": 5,
       "value": "5"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
       "kind": "IntegerLiteral",
-      "offset": 2553,
+      "offset": 2542,
       "length": 9,
       "value": "6"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
       "kind": "IntegerLiteral",
-      "offset": 2616,
+      "offset": 2605,
       "length": 7,
       "value": "7"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
       "kind": "IntegerLiteral",
-      "offset": 2633,
+      "offset": 2623,
       "length": 10,
       "value": "8"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
       "kind": "IntegerLiteral",
-      "offset": 2209,
+      "offset": 2699,
+      "length": 7,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2771,
+      "length": 7,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2793,
+      "length": 6,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2810,
+      "length": 9,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2198,
       "length": 8,
       "value": "1"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
       "kind": "IntegerLiteral",
-      "offset": 2280,
+      "offset": 2269,
       "length": 9,
       "value": "2"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
       "kind": "IntegerLiteral",
-      "offset": 2351,
+      "offset": 2340,
       "length": 8,
       "value": "3"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
       "kind": "IntegerLiteral",
-      "offset": 2422,
+      "offset": 2411,
       "length": 9,
       "value": "4"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
       "kind": "IntegerLiteral",
-      "offset": 2490,
+      "offset": 2479,
       "length": 5,
       "value": "5"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
       "kind": "IntegerLiteral",
-      "offset": 2553,
+      "offset": 2542,
       "length": 9,
       "value": "6"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
       "kind": "IntegerLiteral",
-      "offset": 2616,
+      "offset": 2605,
       "length": 7,
       "value": "7"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
       "kind": "IntegerLiteral",
-      "offset": 2633,
+      "offset": 2623,
       "length": 10,
       "value": "8"
     },
     {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2699,
+      "length": 7,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2771,
+      "length": 7,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2793,
+      "length": 6,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessAction.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2810,
+      "length": 9,
+      "value": "12"
+    },
+    {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/LivenessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2765,
+      "offset": 2888,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/LivenessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2854,
+      "offset": 2977,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/LivenessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2963,
+      "offset": 3086,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/LivenessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3069,
+      "offset": 3122,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/LivenessViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3227,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/LivenessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3721,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/LivenessViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4089,
+      "offset": 4044,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/LivenessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1827,
+      "offset": 4233,
+      "length": 17,
+      "value": "\"Liveness.verify\""
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/LivenessViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4365,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/LivenessViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4550,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/LivenessViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1845,
       "length": 22,
       "value": "\"Liveness.LivenessViewController\""
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/LivenessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14879,
+      "offset": 18813,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Library\/Developer\/Xcode\/DerivedData\/Liveness-gxjzlbtcwraxurhdnevslvfycorf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Dynamic\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphoneos\/Liveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 725,
+      "length": 8,
+      "value": "\"volume\""
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Library\/Developer\/Xcode\/DerivedData\/Liveness-gxjzlbtcwraxurhdnevslvfycorf\/Build\/Intermediates.noindex\/ArchiveIntermediates\/Dynamic\/IntermediateBuildFilesPath\/Liveness.build\/Release-iphoneos\/Liveness.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 858,
+      "length": 10,
+      "value": "\"volume-x\""
     }
   ]
 }

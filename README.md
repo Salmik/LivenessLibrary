@@ -9,7 +9,7 @@
 For iOS Swift projects:
 
 ```ruby
-pod 'Liveness', :git => 'https://github.com/Salmik/LivenessLibrary', :tag => '1.0.3'
+pod 'Liveness', :git => 'https://github.com/Salmik/LivenessLibrary', :tag => '1.0.5'
 ```
 
 ## Documentation
