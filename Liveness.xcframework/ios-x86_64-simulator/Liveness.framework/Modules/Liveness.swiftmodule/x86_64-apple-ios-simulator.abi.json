@@ -3822,7 +3822,7 @@
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Camera\/LivenessCameraController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5357,
+      "offset": 5188,
       "length": 5,
       "value": "false"
     },
@@ -3856,10 +3856,24 @@
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/VolumeButton.swift",
+      "kind": "StringLiteral",
+      "offset": 354,
+      "length": 19,
+      "value": "\"Volume.title.isOn\""
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/VolumeButton.swift",
+      "kind": "StringLiteral",
+      "offset": 376,
+      "length": 20,
+      "value": "\"Volume.title.isOff\""
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/VolumeButton.swift",
       "kind": "BooleanLiteral",
       "offset": 298,
-      "length": 4,
-      "value": "true"
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/Utils\/Notification+extension.swift",
@@ -4082,41 +4096,41 @@
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/LivenessViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 3122,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/LivenessViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3227,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/LivenessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4044,
+      "offset": 3228,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/LivenessViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4045,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/LivenessViewController.swift",
       "kind": "StringLiteral",
-      "offset": 4233,
+      "offset": 4234,
       "length": 17,
       "value": "\"Liveness.verify\""
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/LivenessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4365,
+      "offset": 4366,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/LivenessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4550,
+      "offset": 4551,
       "length": 5,
       "value": "false"
     },
@@ -4130,7 +4144,7 @@
     {
       "filePath": "\/Users\/zhanibeklukpanov\/Desktop\/Liveness\/Liveness\/LivenessViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 18813,
+      "offset": 18676,
       "length": 5,
       "value": "false"
     },
